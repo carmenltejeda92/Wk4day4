@@ -124,7 +124,7 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 //this method sorts the elements in an array in ascending order, by default - this list was sorted alphabetically - this method returns a reference to the original array, it did not change the original
 
 //2. Use the method pop
-console.log(favMovies.pop())
+// console.log(favMovies.pop())
 //The pop method removes the last element of the array - in this instance, the pop method removed the last element and the console log displayed what was removed
 
 //3. push"Guardians of the Galaxy"
@@ -171,16 +171,23 @@ console.log(favMovies.pop())
 
 
 
+/* Where is Waldo 
+With the following multi-dimensional array */
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+// ["Lucinda", "Jacc", "Neff", "Snoop"],
+// ["Petunia", ["Baked Goods", "Waldo"]]];
 
+// Remove Eggbert (hint look at the slice/splice method(s))
+// whereIsWaldo.splice(1,1)
+// console.log(whereIsWaldo[1])
 
+// Change "Neff" to "No One"
+// whereIsWaldo[2].splice(2, 1, "No One")
+// console.log(whereIsWaldo[2][2])
+// console.log(whereIsWaldo)
 
-
-
-
-
-
-
-
+// Access and console.log "Waldo"
+// console.log(whereIsWaldo[3][1][1])
 
 
 
