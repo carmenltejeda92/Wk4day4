@@ -111,7 +111,7 @@ Use a for of loop(not a typo - try it out! Try a for ofloop) to call toUpperCase
 
 
 /* Methods, Revisited - Here is a list of favMovies: */
-const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
 // Console log: the index of Titanic
 // console.log(favMovies.indexOf("Titanic"))
@@ -198,6 +198,62 @@ For every even number in your loop, log "...human...why you taking pictures of m
 //     if(i%2==0) console.log(i + words[Math.floor(Math.random() * words.length)])
 //     else    console.log(i)    
 // }
+
+/* Find the Median
+Find the median number in the following nums array, then console.log that number.
+hint if you check the length of the array / 2, you might get not get a whole number. In which case, look into Math.floor( // something ) */
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+
+nums.sort()
+console.log(nums.unshift())
+console.log(nums[12])
+// I think 12 was a good index to use if whole numbers were necessary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
