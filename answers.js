@@ -271,9 +271,17 @@ Modify your code to put together 3 separate outfits for Kristyn and Thom. Put th
 // console.log('Thoms outfit for tomorrow will be ' + thomsoutfits2.join(", "))
 // console.log('Thoms outfit for the day after tomorrow will be ' + thomsoutfits3.join(", "))
 
+/* Dirty Laundry - Continue looking at the closet arrays:
+Time to do laundry - loop through Kristyn's closet and log the sentence "WHIRR: Now washing (item)" for each item in the array.*/
+// krisoutfits1.forEach(function(outfit){
+//     console.log('WHIIRRR: Now washing ' + outfit)
+// })
 
-
-
+/*Inventory 
+Thom wants to do inventory on his closet. Using bracket notation, log the arrays containing all of Thom's shirts, pants, and accessories. */
+// console.log("Shirts: " + thomsCloset[0].join(", "))
+// console.log("Pants: " + thomsCloset[1].join(", "))
+// console.log("Accessories: " + thomsCloset[2].join(", "))
 
 
 
