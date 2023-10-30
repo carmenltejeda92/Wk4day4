@@ -110,13 +110,64 @@ Use a for of loop(not a typo - try it out! Try a for ofloop) to call toUpperCase
 // }
 
 
+/* Methods, Revisited - Here is a list of favMovies: */
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+// Console log: the index of Titanic
+// console.log(favMovies.indexOf("Titanic"))
 
 
+/* Do the following and console.log the final results (I have included some thought questions, you don't have to write out an answer for those marked as such):*/
 
+//1. use the .sortmethod Thought question: what did this do to the array? Did it permanently alter it?
+// console.log(favMovies.sort())
+//this method sorts the elements in an array in ascending order, by default - this list was sorted alphabetically - this method returns a reference to the original array, it did not change the original
 
+//2. Use the method pop
+console.log(favMovies.pop())
+//The pop method removes the last element of the array - in this instance, the pop method removed the last element and the console log displayed what was removed
 
+//3. push"Guardians of the Galaxy"
+// favMovies.push("Guardians of the Galaxy")
+// console.log(favMovies)
 
+//4. Reverse the array
+// const reversed = favMovies.reverse()
+// console.log(reversed)
 
+//5. Use the shift method
+// favMovies.shift()
+// console.log(favMovies)
+
+//6. unshift- what does it return?
+// console.log(favMovies.unshift())
+// 19 is returned
+
+//7. splice "Django Unchained" and add "Avatar" (try finding the index of "Django Unchained", instead of counting it yourself) 
+//      Thought question: did this permanently alter our array?
+// console.log(favMovies.indexOf("Django Unchained"))
+// favMovies.splice(3, 1, "Avatar")
+// console.log(favMovies)
+// the contents of the original array were altered, permanently altering the array
+
+//8. slice the last half of the array (challenge yourself and try to programatically determine the middle of the array rather than counting it and hard coding it)
+//      Thought question: did this permanently alter our array?
+// store the value of your slice in a variable, console.log it
+//      Thought question: what is going on here?
+// console.log your final results
+// console.log(favMovies.length)
+// const split = favMovies.slice(9, 19)
+// console.log(split.length)
+// this method does not change the original array, not altering it permanently
+// the original array's elements are copied, from a starting point to an ending point & then displayed in console log
+
+//9. After running the above tasks, console.log the index of "Fast and Furious" 
+//      We removed it from the array, what value do we get when we look for the index of something that is not in the array?
+// console.log(favMovies.indexOf("Fast and Furious"))
+// -1 was returned when the fast and furious was console logged 
+
+//10. Thought question: that we declared the variable favMovieswith const, and yet, we were allowed to change the array. Weird? Should we have used let? 
+// b/c the variable is not the array itself, just a reference point to where the array is stored in memory
 
 
 
