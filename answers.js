@@ -202,25 +202,74 @@ For every even number in your loop, log "...human...why you taking pictures of m
 /* Find the Median
 Find the median number in the following nums array, then console.log that number.
 hint if you check the length of the array / 2, you might get not get a whole number. In which case, look into Math.floor( // something ) */
-const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+// const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
 
-nums.sort()
-console.log(nums.unshift())
-console.log(nums[12])
+// nums.sort()
+// console.log(nums.unshift())
+// console.log(nums[12])
 // I think 12 was a good index to use if whole numbers were necessary
 
 
 
+/* Return of the Closets
+Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript. 
+Use this data to answer the following questions. */
+// const kristynsCloset = [
+//     "left shoe",
+//     "cowboy boots",
+//     "right sock",
+//     "Per Scholas hoodie",
+//     "green pants",
+//     "yellow knit hat",
+//     "marshmallow peeps"
+//   ];
 
+// Thom's closet is more complicated. Check out this nested data structure!!
+// const thomsCloset = [
+//     [
+//       // These are Thom's shirts
+//       "grey button-up",
+//       "dark grey button-up",
+//       "light blue button-up",
+//       "blue button-up",
+//     ],[
+//       // These are Thom's pants
+//       "grey jeans",
+//       "jeans",
+//       "PJs"
+//     ],[
+//       // Thom's accessories
+//       "wool mittens",
+//       "wool scarf",
+//       "raybans"
+//     ]
+//   ];
 
+/* Alien Attire
+Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! Remove Kristyn's shoe from the array and save it to the variable kristynsShoe. 
+Use that variable to add Kristyn's lost shoe to Thom's accessories array.*/
+// let kristynsShoe = kristynsCloset.shift()
+// console.log(kristynsCloset)
+// thomsCloset[2].push(kristynsShoe)
+// console.log(thomsCloset)
 
+/*Dress Us Up
+Modify your code to put together 3 separate outfits for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match! */
+// const krisoutfits1 = [kristynsCloset[0], kristynsCloset[2], kristynsCloset[3]]
+// const krisoutfits2 = [thomsCloset[0][1], thomsCloset[1][1], kristynsCloset[5]]
+// const krisoutfits3 = [thomsCloset[2][3], kristynsCloset[1], thomsCloset[1][2]]
 
+// console.log('Kristyn will wear ' + krisoutfits1.join(", ") + ' today')
+// console.log('Kristyns outfit for tomorrow will be ' + krisoutfits2.join(", "))
+// console.log('Kristyns outfit for the day after tomorrow will be ' + krisoutfits3.join(", "))
 
+// const thomsoutfits1 = [thomsCloset[2][3], kristynsCloset[4], thomsCloset[1][0]]
+// const thomsoutfits2 = [kristynsCloset[0], thomsCloset[1][2], kristynsCloset[1]]
+// const thomsoutfits3 = [thomsCloset[2][0], thomsCloset[2][1], thomsCloset[2][2]]
 
-
-
-
-
+// console.log('Thoms outfit for today is ' + thomsoutfits1.join(", "))
+// console.log('Thoms outfit for tomorrow will be ' + thomsoutfits2.join(", "))
+// console.log('Thoms outfit for the day after tomorrow will be ' + thomsoutfits3.join(", "))
 
 
 
